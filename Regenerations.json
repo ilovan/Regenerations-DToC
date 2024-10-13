@@ -1,0 +1,48 @@
+{
+    "editionTitle": "Regenerations",
+    "editionSubtitle": "Canadian Women's Writing",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='chapter']",
+    "documentContent": "",
+    "documentTitle": "head/title",
+    "documentAuthor": "docAuthor[1]",
+    "indexDocument": "//div[@type='index']",
+    "documentImages": "//graphic[@url]",
+    "documentNotes": "//note",
+    "documentLinks": "//ref[starts-with(@target,'http')]",
+    "inputs": [
+        "https://raw.githubusercontent.com/ilovan/Regenerations-DToC/refs/heads/main/Regenerations_fully_tagged_v15.xml"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//ref[starts-with(@target,'http')]",
+                "label": "link",
+                "usage": "link"
+            },
+            {
+                "xpath": "//note",
+                "label": "note",
+                "usage": "note"
+            }
+        ],
+        "toc": [
+            "5c99c6a8b3e992e733fc2b98059ada92adda4dacbf2246afac98b51446599cd4",
+            "142d01900b56c2e5dd823f93fec6aafe38d1f3cd0cc871d2858f4db2a9f28083",
+            "0e2c862e87262d3a7e693949bd76a851d0a9c5348ed57b1705303e578e2715d9",
+            "c29c46dc590b88ed785f62b17fddf666461e09040a2036e115a2fdd604acecb0",
+            "7bb2ec45aeeedc9cd87d2b78720b93cf3658f7139fd81b85d6b8d44bd36bd790",
+            "87c852f5b6a01cae99d8e0640cd2a0156ce462660f5a5172375f1e311a2a0949",
+            "af276de3944cd098fadcfb6278d9156446f8271b7f661ddbece245f088da005f",
+            "e30621588746ed6e07b9b73ca0ab7f8f3e8dcdebe70ffddb1ced518c949e850d",
+            "6bb8efab06de0e7f7ade4f5d2886700ed13c946fdd3d524cea318b2cbd1a1294",
+            "9132ecad43bfa3e34848992c8bb6ab7289004faf671f2f03b542d522a0e88c9f",
+            "fb712eb5a8c40673477b9832081926604fa240e5aadc25cad53d8096a5aa760e",
+            "89ef2de01f460898fbfa2e337f1971365df80f3934a7533f65b1a71f9f6f7d60",
+            "d0be30804f1d09ce87aa7fde68edfb679eebec15f00d8f82341d83b3ac1601b7",
+            "fe287b0007ea6a0daa79dcb4bdb6977dc95497610c6c3ec7f3140456c5540843",
+            "0af086fdc1fceb3c15baeea7602d6710961f7a0732abc8760cabbe86e827c7ae",
+            "1a13b449b80118adb29e1fc4f059eced6b2720f02c42d223fe000dde2569a8f1"
+        ]
+    }
+}
