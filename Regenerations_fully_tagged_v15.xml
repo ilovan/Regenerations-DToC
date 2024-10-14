@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -832,10 +832,7 @@
             <div type="preface" xml:lang="en-CA">
                 <head>Preface / <hi xml:lang="fr-CA">Préface</hi></head>
                 <docAuthor>
-                    <persName ref="http://viaf.org/viaf/120027154" cert="high">marie carrière</persName>
-                </docAuthor>
-                <docAuthor>
-                    <persName ref=" http://viaf.org/viaf/56665698" cert="high">patricia demers</persName>
+                  <persName ref="http://viaf.org/viaf/120027154" cert="high">marie carrière</persName>, <persName ref=" http://viaf.org/viaf/56665698" cert="high">patricia demers</persName>
                 </docAuthor>
                 <p xml:id="p0">
                     <ref target="#women_writing"><ref target="#genre_scholarlyWriting"><hi rend="italic" xml:lang="fr-CA">Ce que les femmes de chaque génération ont eu à dire et à transmettre</hi>: with brilliant succinctness in her contribution to this volume, <persName ref="http://viaf.org/viaf/7387642" cert="high">Nicole Brossard</persName> enunciates the scope of this collection. These essays are revised versions of papers delivered at the <listEvent> <event> <label>Canadian Women Writers Conference/<hi xml:lang="fr-CA">Colloque écritures des femmes au <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName></hi></label> </event> </listEvent>, held at <orgName ref="http://viaf.org/viaf/147166987" cert="high">the University of <placeName ref="http://www.geonames.org/5883102" cert="high">Alberta</placeName></orgName> <date when="2010">in fall 2010</date></ref>. <ref target="#collaboration">Seeing, hearing, discovering, and recovering the words of Canadian women writers comprised its exciting prospect. Realizing that this material—from the <date from="1800" to="2000">nineteenth century to the present</date>—continues to link and connect, and toggles back and forth across centuries and languages, has been one of the delights of our collaborative work of selection and positioning.</ref></ref>
@@ -1410,10 +1407,7 @@
                         <ref target="#women_writing">L’apport du concept d’ontologie informatique à l’étude de l’histoire littéraire des femmes au <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle</ref>
                     </head>
                     <docAuthor>
-                        <persName ref="http://viaf.org/viaf/105437213" cert="high">chantal savoie</persName>
-                    </docAuthor>
-                    <docAuthor>
-                        <persName ref="http://viaf.org/viaf/104137574" cert="medium">julie roy</persName>
+                      <persName ref="http://viaf.org/viaf/105437213" cert="high">chantal savoie</persName>, <persName ref="http://viaf.org/viaf/104137574" cert="medium">julie roy</persName>
                     </docAuthor>
                     <div type="section">
                         <p xml:id="p110">
@@ -5217,12 +5211,9 @@
             <div type="afterword" xml:lang="en-CA">
                 <head>Afterword</head>
                 <docAuthor>
-                    <persName cert="medium" ref="http://viaf.org/viaf/171626610">Susan Brown</persName>
+                  <persName cert="medium" ref="http://viaf.org/viaf/171626610">Susan Brown</persName>, <persName>Mary-Jo Romaniuk</persName>
                 </docAuthor>
-                <docAuthor>
-                    <persName>Mary-Jo Romaniuk</persName>
-                </docAuthor>
-                <p xml:id="p976">
+               <p xml:id="p976">
                     <ref target="#women_writing">Knowledge of <ref target="#theme_or_topic">women’s writing</ref> in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> is on the move. New paths of inquiry, connections, and insights, as this collection richly illustrates, are emerging as this field of research embarks on major discoveries enabled by new methods of literary inquiry.</ref>
                 </p>
                 <p xml:id="p977"><hi rend="italic">Regenerations / <hi xml:lang="fr-CA">Régénérations:</hi> Canadian Women’s Writing / <hi xml:lang="fr-CA">Écriture des femmes au Canada</hi></hi> emerged from the inaugural conference of the <ref target="#theme_or_topic"><orgName>Canadian Writing Research Collaboratory</orgName></ref> (<ref target="www.cwrc.ca">www.cwrc.ca</ref>), hosted by the <orgName cert="high" ref="http://viaf.org/viaf/145376209" key="Canadian Literature Centre">Canadian Literature Centre/<hi xml:lang="fr-CA">Centre de la littérature canadienne</hi></orgName> (<hi rend="small-caps">CLC</hi>). The Collaboratory, or <hi rend="small-caps">CWRC</hi> (pronounced <q>quirk</q>), is a path-breaking experiment in devising new ways of undertaking scholarship in a digital environment.</p>
@@ -5294,6 +5285,270 @@
            Contents page for dandelion 37.1, Mapping. 
           [Image designed by Blair Prentice]
         </p>-->
+            </div>
+            <div type="semantic_tagging">
+                <!--Semantic Tags - updated March 2015. List moved from the encodingDesc classDecl, so that ANdrew can automate the semantic tag curration process in DToC -->
+                <list>
+
+                    <!-- Life tagset: -->
+                    <item xml:id="class_issue">
+                        <note>Encodes discussion related to class.</note>
+                    </item>
+                    <item xml:id="nationality_issue">
+                        <note>Encodes passages discussing nationality.</note>
+                    </item>
+                    <item xml:id="race_and_ethnicity">
+                        <note>Encodes passages dealing with the unstable, historically constituted categories of race and ethnicity.</note>
+                    </item>
+                    <item xml:id="sexuality">
+                        <note>Encodes discussions of sexuality in terms of culture, behaviour, or identity.</note>
+                    </item>
+                    <item xml:id="education">
+                        <note>Encodes information about educational background: schools or institutions, gender issues (conditions affecting women's access to education), subjects and crucial works studied, people encountered, behaviour, awards, and qualifications gained. </note>
+                    </item>
+                    <item xml:id="health_issue">
+                        <note>Encodes passages relating to well-being or illness (mental or physical).</note>
+                    </item>
+                    <item xml:id="history">
+                        <note>Encodes references to historical events or periods.</note>
+                    </item>
+                    <item xml:id="politics">
+                        <note>Encodes information concerning political activity.</note>
+                    </item>
+                    <item xml:id="violence">
+                        <note>Encodes instances of physical, sexual, institutional, or emotional abuse.</note>
+                    </item>
+                    <item xml:id="gender_issue">
+                        <note>Encodes the relation of a particular political engagement to gender issues, broadly defined.</note>
+                    </item>
+                    <item xml:id="religion">
+                        <note>Encodes discussion of religious issues.</note>
+                    </item>
+                    <item xml:id="technology">
+                        <note>Encodes substantial discussion of technology.</note>
+                    </item>
+                    <item xml:id="collaboration">
+                        <note>Encodes substantial discussion of collaboration.</note>
+                    </item>
+                    <!--  Production tagset: -->
+                    <item xml:id="authorship">
+                        <note>Contains discussions of authorship</note>
+                    </item>
+                    <item xml:id="literary_schools">
+                        <note>Encodes a single reference to a school of thought.</note>
+                    </item>
+                    <item xml:id="writing_climate">
+                        <note>Encodes any physical, economic, or emotional circumstances affecting a writer's work.</note>
+                    </item>
+                    <item xml:id="attitudes_to_women_writing">
+                        <note>Contains material about authors' attitudes specifically to authorship, gender, and the relations between them.</note>
+                    </item>
+                    <item xml:id="place_of_publication">
+                        <note>Encloses significant statements about where books were published.</note>
+                    </item>
+                    <item xml:id="editions">
+                        <note> Contains information about later editions, re-issues, reprints or translations.</note>
+                    </item>
+                    <item xml:id="anthologization">
+                        <note> Encodes information about reprinting a work in collections with work by other people.</note>
+                    </item>
+                    <item xml:id="manuscript_history">
+                        <note>Encodes discussion of the history of unpublished or pre-published texts.</note>
+                    </item>
+                    <item xml:id="non-survival_of_text">
+                        <note>Encodes material on non-extant texts.</note>
+                    </item>
+                    <item xml:id="archive">
+                        <note>Encodes discussion about archived material.</note>
+                    </item>
+                    <item xml:id="archival_location">
+                        <note>Encodes information about location or ownership of manuscript or rare printed texts.</note>
+                    </item>
+                    <item xml:id="non-book_media">
+                        <note>Refers to a non-textual work or non-textual packaging of a written work.</note>
+                    </item>
+                    <!--  Textual Features tagset: -->
+
+                    <item xml:id="genre">
+                        <!-- List below is tentatively replaced with the CWRC primary genres. User testing will tell if this is a good alternative for this collection  -->
+                        <!-- 
+                        <catDesc xml:id="adaptation">Adaptation</note>
+                        <catDesc xml:id="afterword">Afterword</note>
+                        <catDesc xml:id="allegory">Allegory</note>
+                        <catDesc xml:id="annotation">Annotation</note>
+                        <catDesc xml:id="anthology">Anthology</note>
+                        <catDesc xml:id="aphorism">Aphorism</note>
+                        <catDesc xml:id="autobiography">Autobiography</note>
+                        <catDesc xml:id="ballad">Ballad</note>
+                        <catDesc xml:id="bildungsroman">Bildungsroman</note>
+                        <catDesc xml:id="biography">Biography</note>
+                        <catDesc xml:id="catechism">Catechism</note>
+                        <catDesc xml:id="childrens_literature">Children's Literature</note>
+                        <catDesc xml:id="comedy">Comedy</note>
+                        <catDesc xml:id="comic_book">Comic Book</note>
+                        <catDesc xml:id="detective_fiction">Detective Fiction</note>
+                        <catDesc xml:id="dialogue_or_debate">Dialogue or Debate</note>
+                        <catDesc xml:id="diary">Diary</note>
+                        <catDesc xml:id="didactic">Didactic</note>
+                        <catDesc xml:id="documentary">Documentary</note>
+                        <catDesc xml:id="drama">Drama</note>
+                        <catDesc xml:id="dystopia">Dystopia</note>
+                        <catDesc xml:id="elegy">Elegy</note>
+                        <catDesc xml:id="epic">Epic</note>
+                        <catDesc xml:id="epilogue">Epilogue</note>
+                        <catDesc xml:id="epistolary">Epistolary</note>
+                        <catDesc xml:id="erotica">Erotica</note>
+                        <catDesc xml:id="essay">Essay</note>
+                        <catDesc xml:id="fable">Fable</note>
+                        <catDesc xml:id="fairy_tale">Fairy Tale</note>
+                        <catDesc xml:id="fantasy">Fantasy</note>
+                        <catDesc xml:id="folksong">Folksong</note>
+                        <catDesc xml:id="gothic">Gothic</note>
+                        <catDesc xml:id="government_report">Government Report</note>
+                        <catDesc xml:id="historical">Historical</note>
+                        <catDesc xml:id="introduction">Introduction</note>
+                        <catDesc xml:id="journalism">Journalism</note>
+                        <catDesc xml:id="literary_criticism">Literary Criticism</note>
+                        <catDesc xml:id="liturgy">Liturgy</note>
+                        <catDesc xml:id="magic_realism">Magic Realism</note>
+                        <catDesc xml:id="manifesto">Manifesto</note>
+                        <catDesc xml:id="mixed_media">Mixed Media</note>
+                        <catDesc xml:id="mystery">Mystery</note>
+                        <catDesc xml:id="novel">Novel</note>
+                        <catDesc xml:id="parody">Parody</note>
+                        <catDesc xml:id="philosophy">Philosophy</note>
+                        <catDesc xml:id="poetry">Poetry</note>
+                        <catDesc xml:id="propoganda">Propaganda</note>
+                        <catDesc xml:id="science_fiction">Science Fiction</note>
+                        <catDesc xml:id="short_story">Short Story</note>
+                        <catDesc xml:id="social_science">Social Science</note>
+                        <catDesc xml:id="song">Song</note>
+                        <catDesc xml:id="sonnet">Sonnet</note>
+                        <catDesc xml:id="tragedy">Tragedy</note>
+                        <catDesc xml:id="translation">Translation</note>
+                        <catDesc xml:id="treatise">Treatise</note>
+                        <catDesc xml:id="young_adult_writing">Young Adult Writing</note>--> </item>
+                    <item xml:id="genre_drama">
+                        <note>Drama</note>
+                    </item>
+                    <item xml:id="genre_fiction">
+                        <note>Fiction</note>
+                    </item>
+                    <item xml:id="genre_journalism">
+                        <note>Journalism</note>
+                    </item>
+                    <item xml:id="genre_lifeWriting">
+                        <note>Life writing</note>
+                    </item>
+                    <item xml:id="genre_music">
+                        <note>Music</note>
+                    </item>
+                    <item xml:id="genre_novel">
+                        <note>Novel</note>
+                    </item>
+                    <item xml:id="genre_non-ficion">
+                        <note>Non-fiction</note>
+                    </item>
+                    <item xml:id="genre_poetry">
+                        <note>Poetry</note>
+                    </item>
+                    <item xml:id="genre_performance">
+                        <note>Performance</note>
+                    </item>
+                    <item xml:id="genre_short_story">
+                        <note>Short story</note>
+                    </item>
+                    <item xml:id="genre_scholarlyWriting">
+                        <note>Scholarly writing </note>
+                    </item>
+                    <item xml:id="genre_issue">
+                        <note>Encodes discussions of disputable generic allegiance or unusual generic mixtures.</note>
+                    </item>
+                    <item xml:id="voice_or_narration">
+                        <note>Encodes discussion of narrative techniques.</note>
+                    </item>
+                    <item xml:id="textual_strategies">
+                        <note>Rhetorical and discursive effects.</note>
+                    </item>
+                    <item xml:id="characterization">
+                        <note>Encodes discussions of fictional characters.</note>
+                    </item>
+                    <item xml:id="intertextuality">
+                        <note>Encodes discussion of gestures in a text towards other texts. Includes exchange, debate, rivalries, influence of one writer on another.</note>
+                    </item>
+                    <item xml:id="theme_or_topic">
+                        <note>Encodes both theme (concepts central to a particular text) and topic (subjects of less central weight).</note>
+                    </item>
+                    <item xml:id="motif">
+                        <note>Encodes a recurring element that has symbolic significance.</note>
+                    </item>
+                    <!--  Reception tagset: -->
+                    <item xml:id="response_recent">
+                        <note>Encodes time frame of a literary response to a work.</note>
+                    </item>
+                    <item xml:id="response_re-evaluation">
+                        <note>Encodes a response that is a re-evaluation of a literary work.</note>
+                    </item>
+                    <item xml:id="response_formal">
+                        <note>Encodes a formal response to a literary work (e.g. a review).</note>
+                    </item>
+                    <item xml:id="response_informal">
+                        <note>Encodes an informal response to a literary work (e.g. a comment or a letter).</note>
+                    </item>
+                    <item xml:id="response_gendered">
+                        <note>Indicates whether or not a literary response is predicated on the writer's gender.</note>
+                    </item>
+                    <item xml:id="recognitions">
+                        <note>Encodes material about acclaim offered to literary works, usually in the form of awards and prizes.</note>
+                    </item>
+                    <item xml:id="censorship">
+                        <note>Encodes discussion of censorship.</note>
+                    </item>
+                    <!--  Critcal Interpretation tagset: -->
+                    <item xml:id="authority">
+                        <note>Encodes statements about larger issues of cultural authority.</note>
+                    </item>
+                    <item xml:id="economics">
+                        <note>Encodes material related to wealth, power, etc.</note>
+                    </item>
+                    <item xml:id="men_writing">
+                        <note>Discussions of male writing as gendered, or as a tradition (not all discussions of writing by men).</note>
+                    </item>
+                    <item xml:id="women_writing">
+                        <note>Discussions of women's writing as gendered, or as a tradition (not all discussions of writing by women).</note>
+                    </item>
+                    <item xml:id="textual_agency">
+                        <note>Encodes material about the relation between books and social transformation and development (i.e. effects of a certain text on worldly conditions).</note>
+                    </item>
+                    <item xml:id="canon_formation">
+                        <note>Encodes material about the transmission and production of the canon.</note>
+                    </item>
+                    <item xml:id="critique_of_canon">
+                        <note>Encodes critical discussions of the canon.</note>
+                    </item>
+                    <item xml:id="intellectual_history">
+                        <note>Encodes discussion of literary communities and their influences on intellectual history. </note>
+                    </item>
+                    <item xml:id="social_movement">
+                        <note>Encodes discussion of social movements.</note>
+                    </item>
+                    <item xml:id="close_reading">
+                        <note>Encodes passages of close reading.</note>
+                    </item>
+                    <item xml:id="methodology">
+                        <!-- Should we create subcategories for methodology? Or include these methodological approaches as categories in 'genre'? -->
+                        <note>Encodes discussion of someone's methodological approach, or that of another critic. Methodological categories include: feminist, Canadianist, new historical, deconstructionist, psychoanalytic, globalism, post-colonialism, sustainability, etc.</note>
+                    </item>
+                    <item xml:id="representation_of_women">
+                        <note>Encodes discussion of the representation of women, literary or other.</note>
+                    </item>
+                    <item xml:id="representation_of_men">
+                        <note>Encodes discussion of the representation of men, literary or other.</note>
+                    </item>
+                    <item xml:id="historical_oppression">
+                        <note>Encodes material on the exclusion of certain groups from the production of history (literary or other).</note>
+                    </item>
+                </list>
             </div>
             <div type="index">
                 <list>
@@ -7450,270 +7705,6 @@
                         <ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943">www.catherinemavrikakis.com</ref>
                     </item>
 
-                </list>
-            </div>
-            <div type="semantic_tagging">
-                <!--Semantic Tags - updated March 2015. List moved from the encodingDesc classDecl, so that ANdrew can automate the semantic tag curration process in DToC -->
-                <list>
-
-                    <!-- Life tagset: -->
-                    <item xml:id="class_issue">
-                        <note>Encodes discussion related to class.</note>
-                    </item>
-                    <item xml:id="nationality_issue">
-                        <note>Encodes passages discussing nationality.</note>
-                    </item>
-                    <item xml:id="race_and_ethnicity">
-                        <note>Encodes passages dealing with the unstable, historically constituted categories of race and ethnicity.</note>
-                    </item>
-                    <item xml:id="sexuality">
-                        <note>Encodes discussions of sexuality in terms of culture, behaviour, or identity.</note>
-                    </item>
-                    <item xml:id="education">
-                        <note>Encodes information about educational background: schools or institutions, gender issues (conditions affecting women's access to education), subjects and crucial works studied, people encountered, behaviour, awards, and qualifications gained. </note>
-                    </item>
-                    <item xml:id="health_issue">
-                        <note>Encodes passages relating to well-being or illness (mental or physical).</note>
-                    </item>
-                    <item xml:id="history">
-                        <note>Encodes references to historical events or periods.</note>
-                    </item>
-                    <item xml:id="politics">
-                        <note>Encodes information concerning political activity.</note>
-                    </item>
-                    <item xml:id="violence">
-                        <note>Encodes instances of physical, sexual, institutional, or emotional abuse.</note>
-                    </item>
-                    <item xml:id="gender_issue">
-                        <note>Encodes the relation of a particular political engagement to gender issues, broadly defined.</note>
-                    </item>
-                    <item xml:id="religion">
-                        <note>Encodes discussion of religious issues.</note>
-                    </item>
-                    <item xml:id="technology">
-                        <note>Encodes substantial discussion of technology.</note>
-                    </item>
-                    <item xml:id="collaboration">
-                        <note>Encodes substantial discussion of collaboration.</note>
-                    </item>
-                    <!--  Production tagset: -->
-                    <item xml:id="authorship">
-                        <note>Contains discussions of authorship</note>
-                    </item>
-                    <item xml:id="literary_schools">
-                        <note>Encodes a single reference to a school of thought.</note>
-                    </item>
-                    <item xml:id="writing_climate">
-                        <note>Encodes any physical, economic, or emotional circumstances affecting a writer's work.</note>
-                    </item>
-                    <item xml:id="attitudes_to_women_writing">
-                        <note>Contains material about authors' attitudes specifically to authorship, gender, and the relations between them.</note>
-                    </item>
-                    <item xml:id="place_of_publication">
-                        <note>Encloses significant statements about where books were published.</note>
-                    </item>
-                    <item xml:id="editions">
-                        <note> Contains information about later editions, re-issues, reprints or translations.</note>
-                    </item>
-                    <item xml:id="anthologization">
-                        <note> Encodes information about reprinting a work in collections with work by other people.</note>
-                    </item>
-                    <item xml:id="manuscript_history">
-                        <note>Encodes discussion of the history of unpublished or pre-published texts.</note>
-                    </item>
-                    <item xml:id="non-survival_of_text">
-                        <note>Encodes material on non-extant texts.</note>
-                    </item>
-                    <item xml:id="archive">
-                        <note>Encodes discussion about archived material.</note>
-                    </item>
-                    <item xml:id="archival_location">
-                        <note>Encodes information about location or ownership of manuscript or rare printed texts.</note>
-                    </item>
-                    <item xml:id="non-book_media">
-                        <note>Refers to a non-textual work or non-textual packaging of a written work.</note>
-                    </item>
-                    <!--  Textual Features tagset: -->
-
-                    <item xml:id="genre">
-                        <!-- List below is tentatively replaced with the CWRC primary genres. User testing will tell if this is a good alternative for this collection  -->
-                        <!-- 
-                        <catDesc xml:id="adaptation">Adaptation</note>
-                        <catDesc xml:id="afterword">Afterword</note>
-                        <catDesc xml:id="allegory">Allegory</note>
-                        <catDesc xml:id="annotation">Annotation</note>
-                        <catDesc xml:id="anthology">Anthology</note>
-                        <catDesc xml:id="aphorism">Aphorism</note>
-                        <catDesc xml:id="autobiography">Autobiography</note>
-                        <catDesc xml:id="ballad">Ballad</note>
-                        <catDesc xml:id="bildungsroman">Bildungsroman</note>
-                        <catDesc xml:id="biography">Biography</note>
-                        <catDesc xml:id="catechism">Catechism</note>
-                        <catDesc xml:id="childrens_literature">Children's Literature</note>
-                        <catDesc xml:id="comedy">Comedy</note>
-                        <catDesc xml:id="comic_book">Comic Book</note>
-                        <catDesc xml:id="detective_fiction">Detective Fiction</note>
-                        <catDesc xml:id="dialogue_or_debate">Dialogue or Debate</note>
-                        <catDesc xml:id="diary">Diary</note>
-                        <catDesc xml:id="didactic">Didactic</note>
-                        <catDesc xml:id="documentary">Documentary</note>
-                        <catDesc xml:id="drama">Drama</note>
-                        <catDesc xml:id="dystopia">Dystopia</note>
-                        <catDesc xml:id="elegy">Elegy</note>
-                        <catDesc xml:id="epic">Epic</note>
-                        <catDesc xml:id="epilogue">Epilogue</note>
-                        <catDesc xml:id="epistolary">Epistolary</note>
-                        <catDesc xml:id="erotica">Erotica</note>
-                        <catDesc xml:id="essay">Essay</note>
-                        <catDesc xml:id="fable">Fable</note>
-                        <catDesc xml:id="fairy_tale">Fairy Tale</note>
-                        <catDesc xml:id="fantasy">Fantasy</note>
-                        <catDesc xml:id="folksong">Folksong</note>
-                        <catDesc xml:id="gothic">Gothic</note>
-                        <catDesc xml:id="government_report">Government Report</note>
-                        <catDesc xml:id="historical">Historical</note>
-                        <catDesc xml:id="introduction">Introduction</note>
-                        <catDesc xml:id="journalism">Journalism</note>
-                        <catDesc xml:id="literary_criticism">Literary Criticism</note>
-                        <catDesc xml:id="liturgy">Liturgy</note>
-                        <catDesc xml:id="magic_realism">Magic Realism</note>
-                        <catDesc xml:id="manifesto">Manifesto</note>
-                        <catDesc xml:id="mixed_media">Mixed Media</note>
-                        <catDesc xml:id="mystery">Mystery</note>
-                        <catDesc xml:id="novel">Novel</note>
-                        <catDesc xml:id="parody">Parody</note>
-                        <catDesc xml:id="philosophy">Philosophy</note>
-                        <catDesc xml:id="poetry">Poetry</note>
-                        <catDesc xml:id="propoganda">Propaganda</note>
-                        <catDesc xml:id="science_fiction">Science Fiction</note>
-                        <catDesc xml:id="short_story">Short Story</note>
-                        <catDesc xml:id="social_science">Social Science</note>
-                        <catDesc xml:id="song">Song</note>
-                        <catDesc xml:id="sonnet">Sonnet</note>
-                        <catDesc xml:id="tragedy">Tragedy</note>
-                        <catDesc xml:id="translation">Translation</note>
-                        <catDesc xml:id="treatise">Treatise</note>
-                        <catDesc xml:id="young_adult_writing">Young Adult Writing</note>--> </item>
-                    <item xml:id="genre_drama">
-                        <note>Drama</note>
-                    </item>
-                    <item xml:id="genre_fiction">
-                        <note>Fiction</note>
-                    </item>
-                    <item xml:id="genre_journalism">
-                        <note>Journalism</note>
-                    </item>
-                    <item xml:id="genre_lifeWriting">
-                        <note>Life writing</note>
-                    </item>
-                    <item xml:id="genre_music">
-                        <note>Music</note>
-                    </item>
-                    <item xml:id="genre_novel">
-                        <note>Novel</note>
-                    </item>
-                    <item xml:id="genre_non-ficion">
-                        <note>Non-fiction</note>
-                    </item>
-                    <item xml:id="genre_poetry">
-                        <note>Poetry</note>
-                    </item>
-                    <item xml:id="genre_performance">
-                        <note>Performance</note>
-                    </item>
-                    <item xml:id="genre_short_story">
-                        <note>Short story</note>
-                    </item>
-                    <item xml:id="genre_scholarlyWriting">
-                        <note>Scholarly writing </note>
-                    </item>
-                    <item xml:id="genre_issue">
-                        <note>Encodes discussions of disputable generic allegiance or unusual generic mixtures.</note>
-                    </item>
-                    <item xml:id="voice_or_narration">
-                        <note>Encodes discussion of narrative techniques.</note>
-                    </item>
-                    <item xml:id="textual_strategies">
-                        <note>Rhetorical and discursive effects.</note>
-                    </item>
-                    <item xml:id="characterization">
-                        <note>Encodes discussions of fictional characters.</note>
-                    </item>
-                    <item xml:id="intertextuality">
-                        <note>Encodes discussion of gestures in a text towards other texts. Includes exchange, debate, rivalries, influence of one writer on another.</note>
-                    </item>
-                    <item xml:id="theme_or_topic">
-                        <note>Encodes both theme (concepts central to a particular text) and topic (subjects of less central weight).</note>
-                    </item>
-                    <item xml:id="motif">
-                        <note>Encodes a recurring element that has symbolic significance.</note>
-                    </item>
-                    <!--  Reception tagset: -->
-                    <item xml:id="response_recent">
-                        <note>Encodes time frame of a literary response to a work.</note>
-                    </item>
-                    <item xml:id="response_re-evaluation">
-                        <note>Encodes a response that is a re-evaluation of a literary work.</note>
-                    </item>
-                    <item xml:id="response_formal">
-                        <note>Encodes a formal response to a literary work (e.g. a review).</note>
-                    </item>
-                    <item xml:id="response_informal">
-                        <note>Encodes an informal response to a literary work (e.g. a comment or a letter).</note>
-                    </item>
-                    <item xml:id="response_gendered">
-                        <note>Indicates whether or not a literary response is predicated on the writer's gender.</note>
-                    </item>
-                    <item xml:id="recognitions">
-                        <note>Encodes material about acclaim offered to literary works, usually in the form of awards and prizes.</note>
-                    </item>
-                    <item xml:id="censorship">
-                        <note>Encodes discussion of censorship.</note>
-                    </item>
-                    <!--  Critcal Interpretation tagset: -->
-                    <item xml:id="authority">
-                        <note>Encodes statements about larger issues of cultural authority.</note>
-                    </item>
-                    <item xml:id="economics">
-                        <note>Encodes material related to wealth, power, etc.</note>
-                    </item>
-                    <item xml:id="men_writing">
-                        <note>Discussions of male writing as gendered, or as a tradition (not all discussions of writing by men).</note>
-                    </item>
-                    <item xml:id="women_writing">
-                        <note>Discussions of women's writing as gendered, or as a tradition (not all discussions of writing by women).</note>
-                    </item>
-                    <item xml:id="textual_agency">
-                        <note>Encodes material about the relation between books and social transformation and development (i.e. effects of a certain text on worldly conditions).</note>
-                    </item>
-                    <item xml:id="canon_formation">
-                        <note>Encodes material about the transmission and production of the canon.</note>
-                    </item>
-                    <item xml:id="critique_of_canon">
-                        <note>Encodes critical discussions of the canon.</note>
-                    </item>
-                    <item xml:id="intellectual_history">
-                        <note>Encodes discussion of literary communities and their influences on intellectual history. </note>
-                    </item>
-                    <item xml:id="social_movement">
-                        <note>Encodes discussion of social movements.</note>
-                    </item>
-                    <item xml:id="close_reading">
-                        <note>Encodes passages of close reading.</note>
-                    </item>
-                    <item xml:id="methodology">
-                        <!-- Should we create subcategories for methodology? Or include these methodological approaches as categories in 'genre'? -->
-                        <note>Encodes discussion of someone's methodological approach, or that of another critic. Methodological categories include: feminist, Canadianist, new historical, deconstructionist, psychoanalytic, globalism, post-colonialism, sustainability, etc.</note>
-                    </item>
-                    <item xml:id="representation_of_women">
-                        <note>Encodes discussion of the representation of women, literary or other.</note>
-                    </item>
-                    <item xml:id="representation_of_men">
-                        <note>Encodes discussion of the representation of men, literary or other.</note>
-                    </item>
-                    <item xml:id="historical_oppression">
-                        <note>Encodes material on the exclusion of certain groups from the production of history (literary or other).</note>
-                    </item>
                 </list>
             </div>
             <!--          MVI: I suspect this whole portion will be taken out of the digital edition; if not, it would have to be restructured with the three tiles tagged as BIBLs
