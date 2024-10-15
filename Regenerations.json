@@ -1,6 +1,6 @@
 {
-  "dtocRootUrl": "/libraries/leafdtoc/public/",
-  "input": {
+    "editionTitle": "Regenerations",
+    "editionSubtitle": "Canadian Women's Writing",
     "ignoreNamespace": true,
     "documents": "//div[@type=('preface', 'chapter', 'afterword', 'contributors', 'semantic_tagging')]",
     "documentContent": "",
@@ -10,7 +10,8 @@
     "documentNotes": "//note",
     "documentLinks": "//ref[contains(@target,'http')]",
     "indexDocument": "//div[@type='index']",
-    "inputs": ["https://raw.githubusercontent.com/ilovan/Regenerations-DToC/refs/heads/main/Regenerations_fully_tagged_v15.xml"],
+    "inputs": [      "https://raw.githubusercontent.com/ilovan/Regenerations-DToC/refs/heads/main/Regenerations_fully_tagged_v15.xml"
+    ],
     "curation": {
       "markup": [
         {
@@ -392,6 +393,4 @@
         "75aabf9d5f10be4f94ce0caedd5c2cecbee25b62c75494f235c6e19a43a11a16"
       ]
     }
-  },
-  "autoCompleteVal": "Regenerations (800)"
-}
+  }
