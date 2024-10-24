@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -590,9 +590,6 @@
     </teiHeader>
     <text>
         <front>
-            <figure>
-                <graphic url="http://cwrc.ca/logos/Regenerations/cover.jpg"></graphic>
-            </figure>
             <titlePage>
                 <docTitle xml:lang="en-CA">
                     <titlePart type="main">Regenerations</titlePart>
@@ -830,6 +827,9 @@
         </front>
         <body>
             <div type="preface" xml:lang="en-CA">
+            <figure>
+                <graphic url="http://cwrc.ca/logos/Regenerations/cover.jpg"></graphic>
+            </figure>
                 <head>Preface / <hi xml:lang="fr-CA">Préface</hi></head>
                 <docAuthor>
                   <persName ref="http://viaf.org/viaf/120027154" cert="high">marie carrière</persName>, <persName ref=" http://viaf.org/viaf/56665698" cert="high">patricia demers</persName>
